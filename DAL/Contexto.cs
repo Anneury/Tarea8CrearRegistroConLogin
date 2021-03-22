@@ -21,23 +21,26 @@ namespace Tarea8CrearRegistroConLogin.DAL
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<Usuarios>().HasData(new Usuarios()
+            {
+                UsuarioID = 1,
+                NombreUsuario = "Anneury",
+                AliasUsuario = "Sosa",
+                Clave = "12345",
+                Email = "Admin@outlook.com",
+                FechaUsuario = new DateTime(2021, 05, 22),
+                Rol = "admin",
+                Activo = true
+            });
 
             modelBuilder.Entity<Permisos>().HasData(
                 new Permisos() { PermisoID = 1, NombrePermiso = "Descuenta", DescripcionPermiso = "Este permiso puede modificar el precio" },
                 new Permisos() { PermisoID = 2, NombrePermiso = "Vende", DescripcionPermiso = "Este permiso puede vender productos" },
                 new Permisos() { PermisoID = 3, NombrePermiso = "Cobra", DescripcionPermiso = "Este permiso puede cobrar dinero" }
             );
-            modelBuilder.Entity<Usuarios>().HasData(new Usuarios()
-            {
-                UsuarioID = 1,
-                NombreUsuario = "Anneury",
-                AliasUsuario = "Sosa",
-                Clave = "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
-                Email = "Admin@outlook.com",
-                FechaUsuario = new DateTime(2021, 05, 22),
-                Rol = "admin",
-                Activo = true
-            });
+
         }
+        
+
     }
 }

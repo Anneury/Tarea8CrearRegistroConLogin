@@ -40,7 +40,6 @@ namespace Tarea8CrearRegistroConLogin.UI
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.probandoBox = new System.Windows.Forms.MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -49,7 +48,7 @@ namespace Tarea8CrearRegistroConLogin.UI
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(33, 202);
+            this.pictureBox1.Location = new System.Drawing.Point(32, 202);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(36, 36);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -59,7 +58,7 @@ namespace Tarea8CrearRegistroConLogin.UI
             // CancelarButton
             // 
             this.CancelarButton.Image = ((System.Drawing.Image)(resources.GetObject("CancelarButton.Image")));
-            this.CancelarButton.Location = new System.Drawing.Point(74, 404);
+            this.CancelarButton.Location = new System.Drawing.Point(73, 404);
             this.CancelarButton.Name = "CancelarButton";
             this.CancelarButton.Size = new System.Drawing.Size(101, 29);
             this.CancelarButton.TabIndex = 1;
@@ -71,7 +70,7 @@ namespace Tarea8CrearRegistroConLogin.UI
             // IngresarButton
             // 
             this.IngresarButton.Image = ((System.Drawing.Image)(resources.GetObject("IngresarButton.Image")));
-            this.IngresarButton.Location = new System.Drawing.Point(197, 404);
+            this.IngresarButton.Location = new System.Drawing.Point(196, 404);
             this.IngresarButton.Name = "IngresarButton";
             this.IngresarButton.Size = new System.Drawing.Size(108, 29);
             this.IngresarButton.TabIndex = 2;
@@ -82,14 +81,14 @@ namespace Tarea8CrearRegistroConLogin.UI
             // 
             // NombreUsuarioTextBox
             // 
-            this.NombreUsuarioTextBox.Location = new System.Drawing.Point(85, 211);
+            this.NombreUsuarioTextBox.Location = new System.Drawing.Point(84, 211);
             this.NombreUsuarioTextBox.Name = "NombreUsuarioTextBox";
             this.NombreUsuarioTextBox.Size = new System.Drawing.Size(256, 27);
             this.NombreUsuarioTextBox.TabIndex = 3;
             // 
             // ContraseñaTextBox
             // 
-            this.ContraseñaTextBox.Location = new System.Drawing.Point(85, 314);
+            this.ContraseñaTextBox.Location = new System.Drawing.Point(84, 314);
             this.ContraseñaTextBox.Name = "ContraseñaTextBox";
             this.ContraseñaTextBox.Size = new System.Drawing.Size(256, 27);
             this.ContraseñaTextBox.TabIndex = 4;
@@ -97,7 +96,7 @@ namespace Tarea8CrearRegistroConLogin.UI
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(33, 305);
+            this.pictureBox2.Location = new System.Drawing.Point(32, 305);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(36, 36);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -107,7 +106,7 @@ namespace Tarea8CrearRegistroConLogin.UI
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(135, 14);
+            this.pictureBox3.Location = new System.Drawing.Point(137, 14);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(96, 96);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -117,7 +116,7 @@ namespace Tarea8CrearRegistroConLogin.UI
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(85, 292);
+            this.label1.Location = new System.Drawing.Point(84, 292);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(83, 20);
             this.label1.TabIndex = 7;
@@ -126,7 +125,7 @@ namespace Tarea8CrearRegistroConLogin.UI
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(85, 188);
+            this.label2.Location = new System.Drawing.Point(84, 188);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(118, 20);
             this.label2.TabIndex = 8;
@@ -135,25 +134,17 @@ namespace Tarea8CrearRegistroConLogin.UI
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(157, 113);
+            this.label3.Location = new System.Drawing.Point(159, 113);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(46, 20);
             this.label3.TabIndex = 9;
             this.label3.Text = "LogIn";
-            // 
-            // probandoBox
-            // 
-            this.probandoBox.Location = new System.Drawing.Point(85, 154);
-            this.probandoBox.Name = "probandoBox";
-            this.probandoBox.Size = new System.Drawing.Size(125, 27);
-            this.probandoBox.TabIndex = 10;
             // 
             // rLogIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(373, 446);
-            this.Controls.Add(this.probandoBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -187,7 +178,6 @@ namespace Tarea8CrearRegistroConLogin.UI
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.MaskedTextBox probandoBox;
     }
 }
 

@@ -92,6 +92,11 @@ namespace Tarea8CrearRegistroConLogin.Migrations
                 columns: new[] { "PermisoID", "DescripcionPermiso", "NombrePermiso", "VecesAsignado" },
                 values: new object[] { 3, "Este permiso puede cobrar dinero", "Cobra", 0 });
 
+            migrationBuilder.InsertData(
+                table: "Usuarios",
+                columns: new[] { "UsuarioID", "Activo", "AliasUsuario", "Clave", "Email", "FechaUsuario", "NombreUsuario", "Rol" },
+                values: new object[] { 1, true, "Sosa", "12345", "Admin@outlook.com", new DateTime(2021, 5, 22, 0, 0, 0, 0, DateTimeKind.Unspecified), "Anneury", "admin" });
+
             migrationBuilder.CreateIndex(
                 name: "IX_RolesDetalle_RolID",
                 table: "RolesDetalle",

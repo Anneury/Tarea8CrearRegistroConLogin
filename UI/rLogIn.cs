@@ -27,7 +27,7 @@ namespace Tarea8CrearRegistroConLogin.UI
         {
             bool paso = UsuariosBLL.Autenticar(NombreUsuarioTextBox.Text, ContraseñaTextBox.Text);
 
-            if (NombreUsuarioTextBox.Text.Trim() == string.Empty)
+            if (NombreUsuarioTextBox.Text == string.Empty)
             {
                 MessageBox.Show("El Campo (Nombre Usuario) está vacío.\n\nPor favor, escriba su nombre de usuario.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 NombreUsuarioTextBox.Clear();

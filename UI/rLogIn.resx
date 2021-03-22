@@ -75,7 +75,7 @@
   <data name="CancelarButton.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
-        cgAAAHIBsYahGgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGdSURBVDhPjZI9
+        cQAAAHEBHD+AdwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGdSURBVDhPjZI9
         a8JgEMczWTQEF0EwsZOb7RdxsIM66ODgIII46eDmKDhIS0v7ZdpOLZTSlvpWLe1iHISqRWrBt5jr3WMM
         jyalPfiF5Lj/P3fHCbvRU5TDns93ovp8TVWWvxn43pPlY9XvPzDKrPEWCOxh8TmyQuAXNFVRzlrBoMOQ
         rYPEXVm+thHYgt1cbZlg8mK36E8U5ZSJaWZMmG0PUin4LBYtgmE2C32Ey2nd/f2gwBbGFX4kEqAvlzAu
@@ -89,7 +89,7 @@
   <data name="IngresarButton.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DwAACw8BkvkDpQAAAL1JREFUOE+1lTEKwjAYRjvp5B0cBCdv4ODBHFz0Aj2Oi4uDOIkHUPAagr6v8EML
+        DgAACw4BQL7hQQAAAL1JREFUOE+1lTEKwjAYRjvp5B0cBCdv4ODBHFz0Aj2Oi4uDOIkHUPAagr6v8EML
         f5L+Eh+8IW3yaANNmwQtvvETUPO1ziUaM7XOxSaccDdCzbM1LvaE225URtFsUHvxwFU3KlMM9pngGa+4
         0AWHUHCONvmFXjQUFHvMRQfBKa5xU/CIqeggeOkNImpPjf8Gq7/yGA6YiolQcIm5mAgFZ3jDO3oxUQzq
         03titU+v+uFgN6sfX1GTB+yPv4Cm/QIm8rMPEULoAAAAAABJRU5ErkJggg==
@@ -109,7 +109,7 @@
   <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vwAADr8BOAVTJAAABnFJREFUeF7tXU1oJEUUzkwmk5men2RmwkzI34TNHHKYJMtGEjBGwiIexJMHD4uI
+        vgAADr4B6kKxwAAABnFJREFUeF7tXU1oJEUUzkwmk5men2RmwkzI34TNHHKYJMtGEjBGwiIexJMHD4uI
         B1k8iGyIhEUWLx7Eg+QksuxJRCSIB/EkHjwtHpbFw5LTHkREgsiyiEgYQojfl62wJvM2yfT0T1VNffDx
         Xk+6q9573VX9qqq706c76vW6l8lk1lKp1M3+/v6vk8nkPXAXbCUSiUOSuvrtHvfhvjyGx6piHDrB6Oio
         l06n30Awv0eA9/DToR/yWJbBsmq1mjsZ56FYLE7g6v0UgXuMTTGofskyWTbrwLbD/1EqlYYZHKgtUAxg

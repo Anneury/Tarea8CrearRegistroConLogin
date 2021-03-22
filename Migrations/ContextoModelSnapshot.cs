@@ -131,6 +131,19 @@ namespace Tarea8CrearRegistroConLogin.Migrations
                     b.HasKey("UsuarioID");
 
                     b.ToTable("Usuarios");
+
+                    b.HasData(
+                        new
+                        {
+                            UsuarioID = 1,
+                            Activo = true,
+                            AliasUsuario = "Sosa",
+                            Clave = "12345",
+                            Email = "Admin@outlook.com",
+                            FechaUsuario = new DateTime(2021, 5, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            NombreUsuario = "Anneury",
+                            Rol = "admin"
+                        });
                 });
 
             modelBuilder.Entity("Tarea8CrearRegistroConLogin.Entidades.Permisos", b =>
