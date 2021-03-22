@@ -18,6 +18,13 @@ namespace Tarea8CrearRegistroConLogin.UI
             this.ConsultarRolesToolStripMenuItem.Click += new EventHandler(this.ConsultarRolesToolStripMenuItem_ItemClicked);
             this.ConsultarUsuariosToolStripMenuItem.Click += new EventHandler(this.ConsultarUsuariosToolStripMenuItem_ItemClicked);
         }
+        
+        protected override void OnClosed(EventArgs e)
+        {
+            base.OnClosed(e);
+            Close();
+
+        }
         private void UsuariosToolStripMenuItem_ItemClicked(object sender, EventArgs e)
         {
             var usuarios = new rUsuarios();
