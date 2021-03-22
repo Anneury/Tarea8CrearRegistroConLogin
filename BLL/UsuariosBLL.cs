@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
@@ -170,6 +171,25 @@ namespace Tarea8CrearRegistroConLogin.BLL
             }
 
             return encontrado;
+        }
+        public static List<Usuarios> GetList(Expression<Func<Usuarios, bool>> criterio)
+        {
+            Contexto contexto = new Contexto();
+            List<Usuarios> lista = new List<Usuarios>();
+
+            try
+            {
+                lista = contexto.Usuarios.Where(criterio).ToList();
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                contexto.Dispose();
+            }
+            return lista;
         }
     }
 }

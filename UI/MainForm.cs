@@ -16,6 +16,7 @@ namespace Tarea8CrearRegistroConLogin.UI
             this.PermisosToolStripMenuItem.Click += new EventHandler(this.PermisosToolStripMenuItem_ItemClicked);
 
             this.ConsultarRolesToolStripMenuItem.Click += new EventHandler(this.ConsultarRolesToolStripMenuItem_ItemClicked);
+            this.ConsultarUsuariosToolStripMenuItem.Click += new EventHandler(this.ConsultarUsuariosToolStripMenuItem_ItemClicked);
         }
         private void UsuariosToolStripMenuItem_ItemClicked(object sender, EventArgs e)
         {
@@ -38,6 +39,12 @@ namespace Tarea8CrearRegistroConLogin.UI
         private void ConsultarRolesToolStripMenuItem_ItemClicked(object sender, EventArgs e)
         {
             var consultas = new cRoles();
+            consultas.MdiParent = this;
+            consultas.Show();
+        }
+        private void ConsultarUsuariosToolStripMenuItem_ItemClicked(object sender, EventArgs e)
+        {
+            var consultas = new cUsuarios();
             consultas.MdiParent = this;
             consultas.Show();
         }
