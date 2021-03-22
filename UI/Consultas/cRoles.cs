@@ -8,14 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Tarea8CrearRegistroConLogin
+namespace Tarea8CrearRegistroConLogin.UI.Consultas
 {
-    public partial class Form1 : Form
+    public partial class cRoles : Form
     {
-        public Form1()
+        public cRoles()
         {
             InitializeComponent();
         }
-
     }
 }
